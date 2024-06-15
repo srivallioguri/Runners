@@ -1,8 +1,9 @@
 name: My Custom CI on Self Host
 
 on:
+
   schedule:
-    - cron: '* * * * *'
+    - cron: '* * * * *'  # Runs at midnight UTC every day
 
 jobs:
   build:
