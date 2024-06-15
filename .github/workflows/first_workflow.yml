@@ -4,10 +4,7 @@ on:
 
   schedule:
     - cron: '* * * * *'  # Runs at midnight UTC every day
-  push:
-    branches: [ "default", "new_branch" ]
-  pull_request:
-    branches: [ "default" ]
+
 
 jobs:
   build:
