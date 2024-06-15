@@ -1,10 +1,8 @@
 name: My Custom CI on Self Host
 
 on:
-  push:
-    branches: [ "default" ]
-  pull_request:
-    branches: [ "default" ]
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   build:
